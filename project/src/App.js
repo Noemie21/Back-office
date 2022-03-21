@@ -19,8 +19,8 @@ function App() {
         </div>
         <br />
         <div className="flex items-center">
-          <div className="rounded-full ...">
-            <img src={picture} alt="profile" />
+          <div className="rounded-full">
+            <img className="rounded-full ..." src={picture} alt="profile" />
           </div>
           <div>
             &nbsp;

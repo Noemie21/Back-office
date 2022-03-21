@@ -4,16 +4,16 @@ import './App.css';
 import DashboardPage from './Pages/DashboardPage';
 import ContactPage from './Pages/ContactPage';
 import ChatPage from './Pages/ChatPage';
-import dashboard from './assets/dashboard-icone.png';
-import contact from './assets/user-icone.png';
-import chat from './assets/chat-icone.png';
-import picture from './assets/profile.png';
+// import dashboard from './assets/dashboard-icone.png';
+// import contact from './assets/user-icone.png';
+// import chat from './assets/chat-icone.png';
+// import picture from './assets/profile.png';
 
 function App() {
   return (
     <BrowserRouter>
 
-      <div className="ml-5 mt-5">
+      {/* <div className="ml-5 mt-5">
         <div className="text-[#109CF1]">
           <h1>SaaS Kit</h1>
         </div>
@@ -55,7 +55,7 @@ function App() {
           </div>
 
         </ul>
-      </div>
+      </div> */}
       <Routes>
         <Route path="/dashboard" element={<DashboardPage />}> </Route>
         <Route path="/contact" element={<ContactPage />}> </Route>

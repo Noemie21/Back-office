@@ -10,6 +10,7 @@ export default function SearchBar() {
       <span className="text-gray-500 text-lg">{element}</span>
       <input type="text" name="search" className="focus:ring-indigo-500 focus:border-indigo-500 block w-11/12 pl-7 pr-12 sm:text-sm border-gray-300 rounded-md" placeholder="Global Search" />
       <span className="text-gray-500 text-lg">{bell}</span>
+      <span class="absolute h-3 w-3 rounded-full bg-red-500 border-2 border-gray-500 top-0 right-0" />
     </div>
   );
 }

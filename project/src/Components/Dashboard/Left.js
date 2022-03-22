@@ -8,7 +8,7 @@ export default function Left() {
   const pen = <FontAwesomeIcon icon={faPen} />;
   const trash = <FontAwesomeIcon icon={faTrashCan} />;
   return (
-    <div className="box py-5">
+    <div className="box py-5 w-7/12 ">
       <div className="px-6">
         <div className="flex flex-row justify-between">
           <p>8 task completed out of 10</p>
@@ -22,7 +22,7 @@ export default function Left() {
         </div>
         <div className="mt-5">
           <h1>23 December, Sunday</h1>
-          <div className=" mt-12 flex flex-row justify-between">
+          <div className=" mt-6 flex flex-row justify-between">
             <div className="flex flex-col items-center">
               <div className="text-gray-500">Sun</div>
               <div className="bg-blue text-white rounded-full w-6">23</div>
@@ -55,9 +55,9 @@ export default function Left() {
         </div>
       </div>
 
-      <div className="mt-7 h-px bg-gray-300" />
+      <div className="mt-4 h-px bg-gray-300" />
 
-      <div className="mt-6 px-6 flex flex-col">
+      <div className="px-6 flex flex-col">
         <div className="mt-6 box px-4 h-32">
           <div className="flex flex-row justify-between mt-4">
             <h1>Send benefit review by Sunday</h1>

@@ -4,9 +4,9 @@ import contact from '../assets/user-icone.png';
 import chat from '../assets/chat-icone.png';
 import picture from '../assets/profile.png';
 
-function Informations() {
+export default function Informations() {
   return (
-    <div className="ml-5 mt-5">
+    <div className="ml-10 mb-5 ">
       <div className="text-[#109CF1]">
         <h1>SaaS Kit</h1>
       </div>
@@ -52,5 +52,3 @@ function Informations() {
     </div>
   );
 }
-
-export default Informations;

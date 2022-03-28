@@ -6,10 +6,13 @@ module.exports = {
     extend: {
       colors: {
         background: '#E5E5E5',
+        green: '#2ED47A',
         blue: '#109CF1',
-        white: '#FFFF',
-        gray: '#f5f6f8',
       },
+      maxHeight: {
+        600: '600px',
+      },
+
     },
   },
   plugins: [],

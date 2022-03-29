@@ -4,6 +4,7 @@ import Menu from '../Components/Informations';
 import SearchBar from '../Components/SearchBar';
 import ChatBox from '../Components/Chat/Chatbox';
 import '../App.css';
+import Messages from '../Components/Chat/List-messages';
 
 export default function AdminPage() {
   return (
@@ -12,11 +13,13 @@ export default function AdminPage() {
       <div className="w-full">
         <SearchBar />
         <div className="bg-background p-9 flex flex-row justify-between">
-          <div className="box w-3/4 mr-6">Hello World</div>
+          <div className="box w-full mr-6">
+            <Messages />
+          </div>
+
           <ChatBox />
         </div>
       </div>
-
     </div>
   );
 }
